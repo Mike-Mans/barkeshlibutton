@@ -1,1 +1,22 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play MP3 Button</title>
+</head>
+<body>
+  <img src="IMG_3457.jpg" alt="Description of image" width="500" height="300">
+  <br>
+  <button onclick="playAudio()">Where's My Project??</button>
+  <audio id="audioClip" src="New Recording.mp3" preload="auto"></audio>
+
+  <script>
+    function playAudio() {
+      var audio = document.getElementById('audioClip');
+      audio.play();
+    }
+  </script>
+
+</body>
+</html>
